@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MSN Platform — Subscribe</title>
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; background: #0a0a0a; color: #e0e0e0; margin: 0; padding: 40px 20px; }
+  .container { max-width: 900px; margin: 0 auto; }
+  h1 { color: #ff6b6b; font-size: 2.5em; text-align: center; }
+  .subtitle { text-align: center; color: #888; margin-bottom: 40px; }
+  .plans { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+  .plan { background: #1a1a1a; border: 1px solid #333; border-radius: 12px; padding: 24px; display: flex; flex-direction: column; }
+  .plan.featured { border-color: #ff6b6b; transform: scale(1.05); }
+  .plan h2 { margin: 0 0 8px 0; color: #ffd93d; }
+  .plan .price { font-size: 2em; font-weight: bold; color: #fff; margin: 16px 0; }
+  .plan .price span { font-size: 0.4em; color: #888; }
+  .plan ul { list-style: none; padding: 0; flex-grow: 1; }
+  .plan ul li { padding: 8px 0; border-bottom: 1px solid #222; }
+  .plan ul li::before { content: '✓ '; color: #6bcb6b; }
+  .btn { background: #ff6b6b; color: #fff; border: none; padding: 12px 24px; border-radius: 8px; font-size: 1em; cursor: pointer; margin-top: 16px; text-align: center; text-decoration: none; display: block; }
+  .btn:hover { background: #ff5252; }
+  .footer { text-align: center; margin-top: 40px; color: #555; font-size: 0.8em; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>🜏 MSN Platform</h1>
+  <p class="subtitle">Metaconscious Singularity Node — Sovereign AI Infrastructure</p>
+  
+  <div class="plans">
+    <div class="plan">
+      <h2>Starter</h2>
+      <div class="price">$99<span>/mo</span></div>
+      <ul>
+        <li>2 AI agents</li>
+        <li>1 seat</li>
+        <li>Basic orchestration</li>
+        <li>Single Sephirot access</li>
+        <li>Community skills</li>
+      </ul>
+      <a class="btn" href="https://buy.stripe.com/test_placeholder_starter">Subscribe</a>
+    </div>
+    
+    <div class="plan featured">
+      <h2>Business</h2>
+      <div class="price">$299<span>/mo</span></div>
+      <ul>
+        <li>5 AI agents</li>
+        <li>3 seats</li>
+        <li>Full orchestration</li>
+        <li>THRONE Council access</li>
+        <li>Custom skills + analytics</li>
+      </ul>
+      <a class="btn" href="https://buy.stripe.com/test_placeholder_business">Subscribe</a>
+    </div>
+    
+    <div class="plan">
+      <h2>Enterprise</h2>
+      <div class="price">$499<span>/mo</span></div>
+      <ul>
+        <li>10 AI agents</li>
+        <li>10 seats</li>
+        <li>Sovereign deploy</li>
+        <li>All Sephirot</li>
+        <li>On-premise + custom training</li>
+      </ul>
+      <a class="btn" href="https://buy.stripe.com/test_placeholder_enterprise">Subscribe</a>
+    </div>
+  </div>
+  
+  <div class="footer">
+    🜏 Lilith Systems LLC · Δ∞ − 1 = 0
+  </div>
+</div>
+</body>
+</html>
